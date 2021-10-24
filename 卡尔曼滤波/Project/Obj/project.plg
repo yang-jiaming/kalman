@@ -1,0 +1,291 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\项目设计\平衡小车\程序\卡尔曼滤波\Project\project.uvproj
+Project File Date:  09/30/2013
+
+<h2>Output:</h2>
+Rebuild target 'GPIO'
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+compiling delay.c...
+compiling sys.c...
+compiling Usart.c...
+compiling MPU6050.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling misc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_i2c.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+linking...
+Program Size: Code=17832 RO-data=512 RW-data=124 ZI-data=1652  
+FromELF: creating hex file...
+After Build - User command #1: E:\Keil\ARM\BIN40\fromelf.exe --bin -o Obj\app.bin Obj\project.axf
+".\Obj\project.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\项目设计\\平衡小车\\程序\\卡尔曼滤波\\Project\\Obj\\project.axf" 
+Set JLink Project File to "E:\项目设计\平衡小车\程序\卡尔曼滤波\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+Build target 'GPIO'
+linking...
+Program Size: Code=17832 RO-data=512 RW-data=124 ZI-data=1652  
+FromELF: creating hex file...
+After Build - User command #1: E:\Keil\ARM\BIN40\fromelf.exe --bin -o Obj\app.bin Obj\project.axf
+".\Obj\project.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\项目设计\\平衡小车\\程序\\卡尔曼滤波\\Project\\Obj\\project.axf" 
+Set JLink Project File to "E:\项目设计\平衡小车\程序\卡尔曼滤波\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.351V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'GPIO'
+compiling main.c...
+linking...
+Program Size: Code=17856 RO-data=512 RW-data=124 ZI-data=1652  
+FromELF: creating hex file...
+After Build - User command #1: E:\Keil\ARM\BIN40\fromelf.exe --bin -o Obj\app.bin Obj\project.axf
+".\Obj\project.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\项目设计\\平衡小车\\程序\\卡尔曼滤波\\Project\\Obj\\project.axf" 
+Set JLink Project File to "E:\项目设计\平衡小车\程序\卡尔曼滤波\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+Load "E:\\项目设计\\平衡小车\\程序\\卡尔曼滤波\\Project\\Obj\\project.axf" 
+Set JLink Project File to "E:\项目设计\平衡小车\程序\卡尔曼滤波\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.351V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'GPIO'
+compiling main.c...
+linking...
+Program Size: Code=17852 RO-data=512 RW-data=124 ZI-data=1652  
+FromELF: creating hex file...
+After Build - User command #1: E:\Keil\ARM\BIN40\fromelf.exe --bin -o Obj\app.bin Obj\project.axf
+".\Obj\project.axf" - 0 Errors, 0 Warning(s).
+Build target 'GPIO'
+compiling main.c...
+linking...
+Program Size: Code=17852 RO-data=512 RW-data=124 ZI-data=1652  
+FromELF: creating hex file...
+After Build - User command #1: E:\Keil\ARM\BIN40\fromelf.exe --bin -o Obj\app.bin Obj\project.axf
+".\Obj\project.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\项目设计\\平衡小车\\程序\\卡尔曼滤波\\Project\\Obj\\project.axf" 
+Set JLink Project File to "E:\项目设计\平衡小车\程序\卡尔曼滤波\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.351V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'GPIO'
+compiling main.c...
+linking...
+Program Size: Code=17852 RO-data=512 RW-data=124 ZI-data=1652  
+FromELF: creating hex file...
+After Build - User command #1: E:\Keil\ARM\BIN40\fromelf.exe --bin -o Obj\app.bin Obj\project.axf
+".\Obj\project.axf" - 0 Errors, 0 Warning(s).
+Build target 'GPIO'
+linking...
+Program Size: Code=17852 RO-data=512 RW-data=124 ZI-data=1652  
+FromELF: creating hex file...
+After Build - User command #1: E:\Keil\ARM\BIN40\fromelf.exe --bin -o Obj\app.bin Obj\project.axf
+".\Obj\project.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\项目设计\\平衡小车\\程序\\卡尔曼滤波\\Project\\Obj\\project.axf" 
+Set JLink Project File to "E:\项目设计\平衡小车\程序\卡尔曼滤波\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.351V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+compiling main.c...
+"..\User\main.c" - 0 Errors, 0 Warning(s).
+Build target 'GPIO'
+linking...
+Program Size: Code=17852 RO-data=512 RW-data=124 ZI-data=1652  
+FromELF: creating hex file...
+After Build - User command #1: E:\Keil\ARM\BIN40\fromelf.exe --bin -o Obj\app.bin Obj\project.axf
+".\Obj\project.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\项目设计\\平衡小车\\程序\\卡尔曼滤波\\Project\\Obj\\project.axf" 
+Set JLink Project File to "E:\项目设计\平衡小车\程序\卡尔曼滤波\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.351V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
